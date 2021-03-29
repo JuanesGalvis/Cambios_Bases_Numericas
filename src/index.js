@@ -1,7 +1,7 @@
 const btnCalcular = document.getElementById('btn_calcular');
 
 function ImprimirResultado( container, valorImprimir ) {
-    Result.innerText = valorImprimir.reverse().join('')
+    container.innerText = valorImprimir.reverse().join('')
 }
 
 function PasarBaseFinal( number, basef ) {
